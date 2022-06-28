@@ -64,8 +64,8 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="17798924-CDC2-4376-A4CF-0BDDABBB156B_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="z3v-tK-kze">
-                                <rect key="frame" x="83" y="169" width="255" height="190"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="z3v-tK-kze">
+                                <rect key="frame" x="-32" y="44" width="478" height="481"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -79,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="17798924-CDC2-4376-A4CF-0BDDABBB156B_4_5005_c" width="266" height="243"/>
+        <image name="Image" width="864" height="1152"/>
     </resources>
 </document>
