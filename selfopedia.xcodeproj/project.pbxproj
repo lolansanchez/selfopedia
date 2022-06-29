@@ -19,6 +19,9 @@
 		772B13CD286B934B003C349E /* selfopediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B13CC286B934B003C349E /* selfopediaUITestsLaunchTests.swift */; };
 		7770F306286BCD31001EDB7C /* quoteDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F305286BCD31001EDB7C /* quoteDictionary.swift */; };
 		7770F308286BD8CB001EDB7C /* feelingLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F307286BD8CB001EDB7C /* feelingLists.swift */; };
+		7770F32D286C8D24001EDB7C /* Adequate-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */; };
+		7770F336286C8DBF001EDB7C /* firstJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */; };
+		7770F338286C8E0E001EDB7C /* journalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F337286C8E0E001EDB7C /* journalClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,26 @@
 		772B13CC286B934B003C349E /* selfopediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfopediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7770F305286BCD31001EDB7C /* quoteDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoteDictionary.swift; sourceTree = "<group>"; };
 		7770F307286BD8CB001EDB7C /* feelingLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingLists.swift; sourceTree = "<group>"; };
+		7770F322286C88EE001EDB7C /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		7770F323286C88EE001EDB7C /* JosefinSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.ttf"; sourceTree = "<group>"; };
+		7770F324286C88EE001EDB7C /* JosefinSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic.ttf"; sourceTree = "<group>"; };
+		7770F325286C88EE001EDB7C /* JosefinSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7770F326286C88F7001EDB7C /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		7770F327286C88F7001EDB7C /* JosefinSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7770F328286C88F7001EDB7C /* JosefinSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7770F329286C88F7001EDB7C /* JosefinSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Thin.ttf"; sourceTree = "<group>"; };
+		7770F32A286C88F7001EDB7C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		7770F32B286C88F7001EDB7C /* JosefinSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Adequate-ExtraLight.ttf"; path = "../../../../selfopedia/fonts/adequate font/Adequate-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7770F32E286C8D73001EDB7C /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light_Oblique.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
+		7770F32F286C8D73001EDB7C /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book_Oblique.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
+		7770F330286C8D73001EDB7C /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Book.otf; sourceTree = "<group>"; };
+		7770F331286C8D73001EDB7C /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold_Oblique.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
+		7770F332286C8D73001EDB7C /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Light.otf; sourceTree = "<group>"; };
+		7770F333286C8D73001EDB7C /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Bold.otf; sourceTree = "<group>"; };
+		7770F334286C8D73001EDB7C /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Dash.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Dash.otf; sourceTree = "<group>"; };
+		7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstJournalViewController.swift; sourceTree = "<group>"; };
+		7770F337286C8E0E001EDB7C /* journalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +132,14 @@
 				772B13A8286B934A003C349E /* SceneDelegate.swift */,
 				772B13AA286B934A003C349E /* ViewController.swift */,
 				772B13AC286B934A003C349E /* Main.storyboard */,
+				7770F321286C88E2001EDB7C /* fonts */,
 				7770F305286BCD31001EDB7C /* quoteDictionary.swift */,
 				7770F307286BD8CB001EDB7C /* feelingLists.swift */,
+				7770F337286C8E0E001EDB7C /* journalClass.swift */,
 				772B13B2286B934A003C349E /* Assets.xcassets */,
 				772B13B4286B934A003C349E /* LaunchScreen.storyboard */,
 				772B13B7286B934A003C349E /* Info.plist */,
+				7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */,
 				772B13AF286B934A003C349E /* selfopedia.xcdatamodeld */,
 			);
 			path = selfopedia;
@@ -134,6 +160,31 @@
 				772B13CC286B934B003C349E /* selfopediaUITestsLaunchTests.swift */,
 			);
 			path = selfopediaUITests;
+			sourceTree = "<group>";
+		};
+		7770F321286C88E2001EDB7C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7770F322286C88EE001EDB7C /* JosefinSans-Bold.ttf */,
+				7770F325286C88EE001EDB7C /* JosefinSans-BoldItalic.ttf */,
+				7770F324286C88EE001EDB7C /* JosefinSans-Italic.ttf */,
+				7770F323286C88EE001EDB7C /* JosefinSans-Light.ttf */,
+				7770F32B286C88F7001EDB7C /* JosefinSans-LightItalic.ttf */,
+				7770F32A286C88F7001EDB7C /* JosefinSans-Regular.ttf */,
+				7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */,
+				7770F326286C88F7001EDB7C /* JosefinSans-SemiBold.ttf */,
+				7770F331286C8D73001EDB7C /* Quicksand_Bold_Oblique.otf */,
+				7770F333286C8D73001EDB7C /* Quicksand_Bold.otf */,
+				7770F32F286C8D73001EDB7C /* Quicksand_Book_Oblique.otf */,
+				7770F330286C8D73001EDB7C /* Quicksand_Book.otf */,
+				7770F334286C8D73001EDB7C /* Quicksand_Dash.otf */,
+				7770F32E286C8D73001EDB7C /* Quicksand_Light_Oblique.otf */,
+				7770F332286C8D73001EDB7C /* Quicksand_Light.otf */,
+				7770F327286C88F7001EDB7C /* JosefinSans-SemiBoldItalic.ttf */,
+				7770F329286C88F7001EDB7C /* JosefinSans-Thin.ttf */,
+				7770F328286C88F7001EDB7C /* JosefinSans-ThinItalic.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +293,7 @@
 			files = (
 				772B13B6286B934A003C349E /* LaunchScreen.storyboard in Resources */,
 				772B13B3286B934A003C349E /* Assets.xcassets in Resources */,
+				7770F32D286C8D24001EDB7C /* Adequate-ExtraLight.ttf in Resources */,
 				772B13AE286B934A003C349E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,11 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7770F336286C8DBF001EDB7C /* firstJournalViewController.swift in Sources */,
 				7770F306286BCD31001EDB7C /* quoteDictionary.swift in Sources */,
 				772B13AB286B934A003C349E /* ViewController.swift in Sources */,
 				7770F308286BD8CB001EDB7C /* feelingLists.swift in Sources */,
 				772B13A7286B934A003C349E /* AppDelegate.swift in Sources */,
 				772B13A9286B934A003C349E /* SceneDelegate.swift in Sources */,
+				7770F338286C8E0E001EDB7C /* journalClass.swift in Sources */,
 				772B13B1286B934A003C349E /* selfopedia.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
