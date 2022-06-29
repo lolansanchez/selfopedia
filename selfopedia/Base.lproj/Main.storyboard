@@ -76,7 +76,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Feelings">
+                                        <fragment content="update list">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="23" name="KohinoorBangla-Regular"/>
