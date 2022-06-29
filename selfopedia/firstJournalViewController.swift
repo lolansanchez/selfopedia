@@ -24,10 +24,10 @@ class firstJournalViewController: UIViewController, UIPickerViewDelegate, UIPick
         pickerView.dataSource = self
         
     }
-    
+   
     @IBOutlet weak var pickerView: UIPickerView!
     let feelings = ["anxious","bored","confused","sick","empathetic pain","guilty","nostalgic","depressed","tired","unmotivated","angry","lonely","annoyed","restless","disappointment","grief","despair","grumpy","panicked","regretful","self conscious","stressed","jealous","homesickness","humiliated"]
-
+    var currentFeeling =
     /*
     // MARK: - Navigation
 
