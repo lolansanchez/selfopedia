@@ -280,10 +280,10 @@
             </objects>
             <point key="canvasLocation" x="-430.43478260869568" y="516.96428571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Thanks For Sharing View Controller-->
         <scene sceneID="tOa-1C-vDR">
             <objects>
-                <viewController id="lmy-JX-4Kd" sceneMemberID="viewController">
+                <viewController id="lmy-JX-4Kd" customClass="thanksForSharingViewController" customModule="selfopedia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I7d-a7-gLi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,6 +302,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4J-RW-y7D">
+                                <rect key="frame" x="130" y="816" width="155" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Additional Resouces"/>
+                                <connections>
+                                    <action selector="additionalResources:" destination="lmy-JX-4Kd" eventType="touchUpInside" id="2S9-58-XjL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lvb-CO-I5S"/>
                         <color key="backgroundColor" red="0.75992380839999996" green="0.80091445279999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

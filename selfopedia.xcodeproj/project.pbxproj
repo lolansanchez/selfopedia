@@ -17,6 +17,7 @@
 		772B13C1286B934B003C349E /* selfopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B13C0286B934B003C349E /* selfopediaTests.swift */; };
 		772B13CB286B934B003C349E /* selfopediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B13CA286B934B003C349E /* selfopediaUITests.swift */; };
 		772B13CD286B934B003C349E /* selfopediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B13CC286B934B003C349E /* selfopediaUITestsLaunchTests.swift */; };
+		776A23F9286E115D007E3717 /* thanksForSharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A23F8286E115D007E3717 /* thanksForSharingViewController.swift */; };
 		7770F306286BCD31001EDB7C /* quoteDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F305286BCD31001EDB7C /* quoteDictionary.swift */; };
 		7770F308286BD8CB001EDB7C /* feelingLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F307286BD8CB001EDB7C /* feelingLists.swift */; };
 		7770F32D286C8D24001EDB7C /* Adequate-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */; };
@@ -58,6 +59,7 @@
 		772B13C6286B934B003C349E /* selfopediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfopediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772B13CA286B934B003C349E /* selfopediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfopediaUITests.swift; sourceTree = "<group>"; };
 		772B13CC286B934B003C349E /* selfopediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfopediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		776A23F8286E115D007E3717 /* thanksForSharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thanksForSharingViewController.swift; sourceTree = "<group>"; };
 		7770F305286BCD31001EDB7C /* quoteDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quoteDictionary.swift; sourceTree = "<group>"; };
 		7770F307286BD8CB001EDB7C /* feelingLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingLists.swift; sourceTree = "<group>"; };
 		7770F322286C88EE001EDB7C /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				7770F321286C88E2001EDB7C /* fonts */,
 				7770F305286BCD31001EDB7C /* quoteDictionary.swift */,
 				7770F307286BD8CB001EDB7C /* feelingLists.swift */,
+				776A23F8286E115D007E3717 /* thanksForSharingViewController.swift */,
 				7770F337286C8E0E001EDB7C /* journalClass.swift */,
 				7791D781286D09AF00482FCA /* listView.swift */,
 				772B13B2286B934A003C349E /* Assets.xcassets */,
@@ -328,6 +331,7 @@
 				7791D780286D098C00482FCA /* addToList.swift in Sources */,
 				7770F336286C8DBF001EDB7C /* firstJournalViewController.swift in Sources */,
 				7791D782286D09AF00482FCA /* listView.swift in Sources */,
+				776A23F9286E115D007E3717 /* thanksForSharingViewController.swift in Sources */,
 				7770F306286BCD31001EDB7C /* quoteDictionary.swift in Sources */,
 				772B13AB286B934A003C349E /* ViewController.swift in Sources */,
 				7770F308286BD8CB001EDB7C /* feelingLists.swift in Sources */,
