@@ -9,29 +9,30 @@ import UIKit
 
 class addToList: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
+    
     @IBOutlet weak var testLabel: UILabel!
-    @IBOutlet weak var pickerView: UIPickerView!
+    @IBOutlet weak var emotionPickerView: UIPickerView!
     var Selected = ""
     let Feelings = ["anxious","bored","confused","sick","empathetic pain","guilty","nostalgic","depressed","tired","unmotivated","angry","lonely","annoyed","restless","disappointment","grief","despair","grumpy","panicked","regretful","self conscious","stressed","jealous","homesickness","humiliated"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        pickerView.delegate = self
-        pickerView.dataSource = self
+        emotionPickerView.delegate = self
+        emotionPickerView.dataSource = self
 
         // Do any additional setup after loading the view.
     }
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in emotionPickerView: UIPickerView) -> Int {
         return 1
     }
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return Selected.count
+    func pickerView(_ emotionPickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return Feelings.count
     }
     
-    private func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    private func pickerView(emotionPickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return "\(Feelings[row])"
     }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(_ emotionPickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         Selected = Feelings[row]
         return Selected
     }
