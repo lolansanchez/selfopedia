@@ -22,6 +22,8 @@
 		7770F32D286C8D24001EDB7C /* Adequate-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */; };
 		7770F336286C8DBF001EDB7C /* firstJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */; };
 		7770F338286C8E0E001EDB7C /* journalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F337286C8E0E001EDB7C /* journalClass.swift */; };
+		7791D780286D098C00482FCA /* addToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D77F286D098C00482FCA /* addToList.swift */; };
+		7791D782286D09AF00482FCA /* listView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D781286D09AF00482FCA /* listView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		7770F334286C8D73001EDB7C /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Dash.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Dash.otf; sourceTree = "<group>"; };
 		7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstJournalViewController.swift; sourceTree = "<group>"; };
 		7770F337286C8E0E001EDB7C /* journalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalClass.swift; sourceTree = "<group>"; };
+		7791D77F286D098C00482FCA /* addToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addToList.swift; path = fonts/addToList.swift; sourceTree = "<group>"; };
+		7791D781286D09AF00482FCA /* listView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 		772B13A5286B934A003C349E /* selfopedia */ = {
 			isa = PBXGroup;
 			children = (
+				7791D77F286D098C00482FCA /* addToList.swift */,
 				772B13A6286B934A003C349E /* AppDelegate.swift */,
 				772B13A8286B934A003C349E /* SceneDelegate.swift */,
 				772B13AA286B934A003C349E /* ViewController.swift */,
@@ -136,6 +141,7 @@
 				7770F305286BCD31001EDB7C /* quoteDictionary.swift */,
 				7770F307286BD8CB001EDB7C /* feelingLists.swift */,
 				7770F337286C8E0E001EDB7C /* journalClass.swift */,
+				7791D781286D09AF00482FCA /* listView.swift */,
 				772B13B2286B934A003C349E /* Assets.xcassets */,
 				772B13B4286B934A003C349E /* LaunchScreen.storyboard */,
 				772B13B7286B934A003C349E /* Info.plist */,
@@ -319,7 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7791D780286D098C00482FCA /* addToList.swift in Sources */,
 				7770F336286C8DBF001EDB7C /* firstJournalViewController.swift in Sources */,
+				7791D782286D09AF00482FCA /* listView.swift in Sources */,
 				7770F306286BCD31001EDB7C /* quoteDictionary.swift in Sources */,
 				772B13AB286B934A003C349E /* ViewController.swift in Sources */,
 				7770F308286BD8CB001EDB7C /* feelingLists.swift in Sources */,
