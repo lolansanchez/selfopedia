@@ -13,7 +13,9 @@ class thanksForSharingViewController: UIViewController {
     var componentArray = Array(feelingListDict.keys)
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(componentArray)
+        for "" in feelingListDict["anxious"] {
+            
+        }
         }
     
     
