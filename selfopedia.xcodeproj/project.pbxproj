@@ -20,7 +20,6 @@
 		776A23F9286E115D007E3717 /* thanksForSharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A23F8286E115D007E3717 /* thanksForSharingViewController.swift */; };
 		7770F306286BCD31001EDB7C /* quoteDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F305286BCD31001EDB7C /* quoteDictionary.swift */; };
 		7770F308286BD8CB001EDB7C /* feelingLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F307286BD8CB001EDB7C /* feelingLists.swift */; };
-		7770F32D286C8D24001EDB7C /* Adequate-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */; };
 		7770F336286C8DBF001EDB7C /* firstJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */; };
 		7770F338286C8E0E001EDB7C /* journalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770F337286C8E0E001EDB7C /* journalClass.swift */; };
 		7791D780286D098C00482FCA /* addToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D77F286D098C00482FCA /* addToList.swift */; };
@@ -45,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		527B4C3C286F49C5008D9F95 /* Adequate-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Adequate-ExtraLight.ttf"; path = "../../../../Desktop/Adequate-ExtraLight.ttf"; sourceTree = "<group>"; };
+		527B4C3D286F49D7008D9F95 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Dash.otf; path = ../../../../Desktop/Quicksand_Dash.otf; sourceTree = "<group>"; };
+		527B4C3E286F49DD008D9F95 /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light_Oblique.otf; path = ../../../../Desktop/Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
+		527B4C3F286F49FF008D9F95 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold.otf; path = ../../../../Desktop/Quicksand_Bold.otf; sourceTree = "<group>"; };
+		527B4C40286F4A0E008D9F95 /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book.otf; path = ../../../../Desktop/Quicksand_Book.otf; sourceTree = "<group>"; };
+		527B4C41286F4A2B008D9F95 /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book_Oblique.otf; path = ../../../../Desktop/Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
+		527B4C42286F4A37008D9F95 /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light.otf; path = ../../../../Desktop/Quicksand_Light.otf; sourceTree = "<group>"; };
+		527B4C43286F4A45008D9F95 /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold_Oblique.otf; path = ../../../../Desktop/Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
 		772B13A3286B934A003C349E /* selfopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772B13A6286B934A003C349E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772B13A8286B934A003C349E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,14 +79,6 @@
 		7770F329286C88F7001EDB7C /* JosefinSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Thin.ttf"; sourceTree = "<group>"; };
 		7770F32A286C88F7001EDB7C /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
 		7770F32B286C88F7001EDB7C /* JosefinSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-LightItalic.ttf"; sourceTree = "<group>"; };
-		7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Adequate-ExtraLight.ttf"; path = "../../../../selfopedia/fonts/adequate font/Adequate-ExtraLight.ttf"; sourceTree = "<group>"; };
-		7770F32E286C8D73001EDB7C /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light_Oblique.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
-		7770F32F286C8D73001EDB7C /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book_Oblique.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
-		7770F330286C8D73001EDB7C /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Book.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Book.otf; sourceTree = "<group>"; };
-		7770F331286C8D73001EDB7C /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold_Oblique.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
-		7770F332286C8D73001EDB7C /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Light.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Light.otf; sourceTree = "<group>"; };
-		7770F333286C8D73001EDB7C /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Bold.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Bold.otf; sourceTree = "<group>"; };
-		7770F334286C8D73001EDB7C /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Quicksand_Dash.otf; path = ../../../../selfopedia/fonts/quicksand/Quicksand_Dash.otf; sourceTree = "<group>"; };
 		7770F335286C8DBF001EDB7C /* firstJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstJournalViewController.swift; sourceTree = "<group>"; };
 		7770F337286C8E0E001EDB7C /* journalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalClass.swift; sourceTree = "<group>"; };
 		7791D77F286D098C00482FCA /* addToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addToList.swift; path = fonts/addToList.swift; sourceTree = "<group>"; };
@@ -180,15 +179,15 @@
 				7770F323286C88EE001EDB7C /* JosefinSans-Light.ttf */,
 				7770F32B286C88F7001EDB7C /* JosefinSans-LightItalic.ttf */,
 				7770F32A286C88F7001EDB7C /* JosefinSans-Regular.ttf */,
-				7770F32C286C8D24001EDB7C /* Adequate-ExtraLight.ttf */,
+				527B4C3C286F49C5008D9F95 /* Adequate-ExtraLight.ttf */,
 				7770F326286C88F7001EDB7C /* JosefinSans-SemiBold.ttf */,
-				7770F331286C8D73001EDB7C /* Quicksand_Bold_Oblique.otf */,
-				7770F333286C8D73001EDB7C /* Quicksand_Bold.otf */,
-				7770F32F286C8D73001EDB7C /* Quicksand_Book_Oblique.otf */,
-				7770F330286C8D73001EDB7C /* Quicksand_Book.otf */,
-				7770F334286C8D73001EDB7C /* Quicksand_Dash.otf */,
-				7770F32E286C8D73001EDB7C /* Quicksand_Light_Oblique.otf */,
-				7770F332286C8D73001EDB7C /* Quicksand_Light.otf */,
+				527B4C43286F4A45008D9F95 /* Quicksand_Bold_Oblique.otf */,
+				527B4C3F286F49FF008D9F95 /* Quicksand_Bold.otf */,
+				527B4C41286F4A2B008D9F95 /* Quicksand_Book_Oblique.otf */,
+				527B4C40286F4A0E008D9F95 /* Quicksand_Book.otf */,
+				527B4C3D286F49D7008D9F95 /* Quicksand_Dash.otf */,
+				527B4C3E286F49DD008D9F95 /* Quicksand_Light_Oblique.otf */,
+				527B4C42286F4A37008D9F95 /* Quicksand_Light.otf */,
 				7770F327286C88F7001EDB7C /* JosefinSans-SemiBoldItalic.ttf */,
 				7770F329286C88F7001EDB7C /* JosefinSans-Thin.ttf */,
 				7770F328286C88F7001EDB7C /* JosefinSans-ThinItalic.ttf */,
@@ -302,7 +301,6 @@
 			files = (
 				772B13B6286B934A003C349E /* LaunchScreen.storyboard in Resources */,
 				772B13B3286B934A003C349E /* Assets.xcassets in Resources */,
-				7770F32D286C8D24001EDB7C /* Adequate-ExtraLight.ttf in Resources */,
 				772B13AE286B934A003C349E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
