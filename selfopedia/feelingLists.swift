@@ -6,30 +6,7 @@
 //
 
 import Foundation
-var anxious: [String] = []
-var bored: [String] = []
-var confused: [String] = []
-var sick: [String] = []
-var empatheticPain: [String] = []
-var guilty: [String] = []
-var nostalgic: [String] = []
-var depressed: [String] = []
-var tired: [String] = []
-var unmotivated: [String] = []
-var angry: [String] = []
-var lonely: [String] = []
-var annoyed: [String] = []
-var restless: [String] = []
-var disappointment: [String] = []
-var grief: [String] = []
-var despair: [String] = []
-var grumpy: [String] = []
-var panicked: [String] = []
-var regretful: [String] = []
-var selfConscious: [String] = []
-var stressed: [String] = []
-var jealous: [String] = []
-var homesickness: [String] = []
-var humiliated : [String] =  []
+var feelingListDict = ["tired": ["Take a nap!", "Get active." , "Get a healthy dose of adrenaline by watching/playing something scary."], "unmotivated:": ["Think of new hobbies to try out!", "Remember the end result. Why you're doing all this." , "Go on a walk.", "Practice self care and compassion."], "angry": ["Close your eyes and take a deep breath.","Wash your face with cold water","Leave the situation and go on a walk.","Think before you act to avoid making regretful decisions.", "Try to view things in perspective.","Calm down, and identify solutions."], "lonely": ["Reach out to friends.","Reach out to an online community.","Reconnect with yourself."], "annoyed":["Practice some calming activities.","Write down in a journal what's making you upset.","Rant to a friend and calm yourself down."], "restless" : ["Excersise and burn off extra energy.","Track down what's bothering you and try to fix it."], "scared": ["Identify what you are scared of.", "Use the 4-7-8 technique. Breathe in for 4 seconds, hold your breath for 7 seconds, and exhale slowly for 8 seconds."], "grateful" : ["Start a gratitude journal.","If somebody is responsible for making you grateful, let them know and thank them."], "overwhelmed" : ["Be kind to yourself; lower your high expectations.","Take a deep breath and try to calm down; distract yourself.","Try meditating to get your emotions and mind clear.","Make a todo list to organize your thoughts and time.","Take a nap to rest your body."], "self conscious":["Learn to love yourself.", "Recognize your strengths and positive features.", "Accept your flaws as a part of you.", "Don't compare yourself to others.", "Keep a journal of things you appreciate about yourself."], "happy" :  ["Be in the present and find ways to keep yourself happy.","Share your joy with others! Spread the love.","Practice gratitude and self-appreciation.","Remember what it was that made you happy and write it down to do it later when you are feeling down."], "curious" : ["Don't be afraid to learn more; ask questions.", "Continue chasing things that make you excited to learn.", "If you're feeling curiosity towards a person, listen to them! Be empathetic and understanding."], "vulnerable": ["Understand that being vulnerable is human.", "Express your feelings to a person you trust.", "Be willing to let your guard down but not at the expense of harming yourself."]]
+
 
 

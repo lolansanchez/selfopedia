@@ -6,37 +6,26 @@
 //
 
 import UIKit
+import SwiftUI
 
 
 class thanksForSharingViewController: UIViewController {
-
+    var componentArray = Array(feelingListDict.keys)
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+        print(componentArray)
+        }
+    
     
 
-    @IBAction func additionalResources(_ sender: Any) {
-        struct resourceLink: View {
-          var body: some View {
-            Link(“More Resources”, destination: URL(string: “https://docs.google.com/document/d/1JHuP6p-j_NF00erfLST7lhGHTgR9uOYeb00mkXwrjhY/edit?usp=sharing”)!)
-          }
+    @IBOutlet weak var cmView: UILabel!
+    
+    @IBAction func additionalResources(_ sender: UIButton) {
+        if let url = URL(string: "https://docs.google.com/document/d/1JHuP6p-j_NF00erfLST7lhGHTgR9uOYeb00mkXwrjhY/edit?usp=sharing") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
-        struct resourceLink_Previews: PreviewProvider {
-          static var previews: some View {
-            resourceLink()
-          }
-        }
-    }
-    /*
-    // MARK: - Navigation
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+}
 
 }

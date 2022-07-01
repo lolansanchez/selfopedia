@@ -10,14 +10,16 @@ import UIKit
 class addToList: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
     
-    @IBOutlet weak var testLabel: UILabel!
+    @IBOutlet weak var cmTextView: UITextView!
+    @IBOutlet weak var doneLabel: UILabel!
     @IBOutlet weak var emotionPickerView: UIPickerView!
     var Selected = ""
-    let Feelings = ["anxious","bored","confused","sick","empathetic pain","guilty","nostalgic","depressed","tired","unmotivated","angry","lonely","annoyed","restless","disappointment","grief","despair","grumpy","panicked","regretful","self conscious","stressed","jealous","homesickness","humiliated"]
+    let Feelings = ["anxious","bored","confused","guilty","nostalgic","depressed","tired","unmotivated","angry","lonely","annoyed","restless","self conscious","scared","grateful","overwhelmed","happy","curious","vulnerable"]
     override func viewDidLoad() {
         super.viewDidLoad()
         emotionPickerView.delegate = self
         emotionPickerView.dataSource = self
+        
 
         // Do any additional setup after loading the view.
     }
@@ -38,8 +40,74 @@ class addToList: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     }
     
     @IBAction func addButton(_ sender: Any) {
-        testLabel.text = Selected
+        var newCM = cmTextView.text!
+        cmTextView.text = ""
+        doneLabel.text = "Successfully added to \(Selected)"
+            if Selected == "anxious"{
+                feelingListDict["anxious", default: []].append(newCM)
+            }
+        else if Selected == "bored" {
+            feelingListDict["bored", default: []].append(newCM)
+        }
+        else if Selected ==  "confused" {
+            feelingListDict["confused", default: []].append(newCM)
+        }
+        else if Selected == "guilty" {
+            feelingListDict["guilty", default: []].append(newCM)
+        }
+        else if Selected == "nostalgic" {
+            feelingListDict["nostalgic", default: []].append(newCM)
+        }
+        else if Selected == "depressed" {
+            feelingListDict["depressed", default: []].append(newCM)
+        }
+        else if Selected == "tired" {
+            feelingListDict["tired", default:[]].append(newCM)
+        }
+        else if Selected == "unmotivated" {
+            feelingListDict["unmotivated", default:[]].append(newCM)
+        }
+        else if Selected == "angry" {
+            feelingListDict["angry", default:[]].append(newCM)
+        }
+        else if Selected == "lonely" {
+            feelingListDict["lonely", default: []].append(newCM)
+        }
+        else if Selected == "annoyed" {
+            feelingListDict["annoyed", default: []].append(newCM)
+        }
+        else if Selected == "restless" {
+            feelingListDict["restless", default: []].append(newCM)
+        }
+        else if Selected == "scared" {
+            feelingListDict["scared", default: []].append(newCM)
+        }
+        else if Selected == "grateful" {
+            feelingListDict["grateful", default: []].append(newCM)
+        }
+        else if Selected == "overwhelmed" {
+            feelingListDict["overwhelmed", default: []].append(newCM)
+        }
+        else if Selected == "self conscious" {
+            feelingListDict["self conscious", default: []].append(newCM)
+        }
+        else if Selected == "happy" {
+            feelingListDict["happy", default: []].append(newCM)
+        }
+        else if Selected == "curious" {
+            feelingListDict["curious", default: []].append(newCM)
+        }
+        else if Selected == "vulnerable" {
+            feelingListDict["vulnerable", default: []].append(newCM)
+        }
+        else {
+            doneLabel.text = "Error. Please try again."
+        }
+         
+        
+        
     }
+   
     /*
     // MARK: - Navigation
 

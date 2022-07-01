@@ -6,11 +6,11 @@
 //
 
 import UIKit
-
+var selected = ""
 class firstJournalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet weak var pickerView: UIPickerView!
     var selected = ""
-    let feelings = ["anxious","bored","confused","sick","empathetic pain","guilty","nostalgic","depressed","tired","unmotivated","angry","lonely","annoyed","restless","disappointment","grief","despair","grumpy","panicked","regretful","self conscious","stressed","jealous","homesickness","humiliated"]
+    let feelings = ["anxious","bored","confused","guilty","nostalgic","depressed","tired","unmotivated","angry","lonely","annoyed","restless","self conscious","stressed","jealous","homesickness","humiliated","scared","grateful","overwhelmed","happy","curious","vulnerable"]
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -18,7 +18,6 @@ class firstJournalViewController: UIViewController, UIPickerViewDelegate, UIPick
     @IBOutlet weak var testLabel: UILabel!
     
     @IBAction func submitButton(_ sender: Any) {
-        testLabel.text = selected
     }
     
     @IBOutlet weak var dateLabel: UILabel!
@@ -48,7 +47,6 @@ class firstJournalViewController: UIViewController, UIPickerViewDelegate, UIPick
         selected = feelings[row]
         return selected
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

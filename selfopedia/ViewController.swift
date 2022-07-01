@@ -6,9 +6,7 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
-
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
     override func viewDidLoad() {
@@ -19,7 +17,7 @@ class ViewController: UIViewController {
         quoteLabel.text = quote
         authorLabel.text = author
     }
+    }
 
 
-}
 
